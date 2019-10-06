@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro|Open+Sans:300i,400|Ubuntu&display=swap');
+/*
+HEADINGS:
+font-family: 'Ubuntu', sans-serif;
+
+PARAGRAPHS:
+font-family: 'Maven Pro', sans-serif;
+
+SUB-TITLES:
+font-family: 'Open Sans', sans-serif;
+*/
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Maven Pro', sans-serif; 
+}
+.container{
+    width: 86vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+.sub-title{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: overline;
+}
+.whole-navbar{
+    position: fixed;
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(42, 43, 46);
+    height:65px;
+    
+}
+.logo-wrapper{
+    display: flex;
+    flex-direction: row;
+    width:250px;
+    margin-left: 5%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.logo-type{
+    color: white;
+    padding: 3px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.top-nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.slogan{
+    color: rgb(172, 243, 249);
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.menu-category{
+    font-family: 'Maven Pro', sans-serif;
+    color: rgb(172, 243, 249);
+    padding: 2px;
+    font-size: 15px;
+    margin-left: 60px;
+}
+.menu-category:hover{
+    color: rgb(255, 255, 151);
+}
+.drop-nav{
+    background-color: rgb(46, 58, 77);
+    color: white;
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.dropdown-menu{
+    padding: 10px;
+    width: 400px;
+    flex-direction: column;
+}
+.drop-heading{
+    color: darkgray;
+}
+.page-heading{
+    position: fixed;
+    color: rgb(87, 209, 242);
+    padding-top: 67px;
+    height: 83px;
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(32, 43, 46);
+}
+.lead-banner{
+    display: flex;
+    flex-direction: row;
+}
+.front-page-lead{
+    
+    flex-direction: column;
+    height: 550px;
+    
+    margin-top: 130px;
+    margin-left: 20px;
+}
+.satoshi-sidebar{
+    height: 550px;
+    width:  150px;
+    background-color: rgb(5, 145, 245);
+    margin-top: 50px;
+}
+.whois{
+    color: red;
+    z-index: 1;
+    font-size: 52px;
+    margin-left: 180px;
+    margin-top: 20px;
+    width: 300px;
+    
+    
+}
+
